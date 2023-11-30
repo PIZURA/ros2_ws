@@ -1,0 +1,30 @@
+[0.814s] Invoking command in '/home/atsushi8-ss/ros2_ws/src/mypkg': PYTHONPATH=/home/atsushi8-ss/ros2_ws/build/mypkg/prefix_override:/home/atsushi8-ss/ros2_ws/install/mypkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mypkg build --build-base /home/atsushi8-ss/ros2_ws/build/mypkg/build install --record /home/atsushi8-ss/ros2_ws/build/mypkg/install.log --install-scripts $base/lib/mypkg --single-version-externally-managed
+[0.956s] running egg_info
+[0.956s] writing ../../build/mypkg/mypkg.egg-info/PKG-INFO
+[0.956s] writing dependency_links to ../../build/mypkg/mypkg.egg-info/dependency_links.txt
+[0.956s] writing entry points to ../../build/mypkg/mypkg.egg-info/entry_points.txt
+[0.956s] writing requirements to ../../build/mypkg/mypkg.egg-info/requires.txt
+[0.956s] writing top-level names to ../../build/mypkg/mypkg.egg-info/top_level.txt
+[0.995s] reading manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.995s] writing manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.995s] running build
+[0.995s] running build_py
+[0.997s] copying mypkg/talker.py -> /home/atsushi8-ss/ros2_ws/build/mypkg/build/lib/mypkg
+[0.997s] running install
+[0.997s] running install_lib
+[0.997s] copying /home/atsushi8-ss/ros2_ws/build/mypkg/build/lib/mypkg/talker.py -> /home/atsushi8-ss/ros2_ws/install/mypkg/lib/python3.8/site-packages/mypkg
+[0.998s] byte-compiling /home/atsushi8-ss/ros2_ws/install/mypkg/lib/python3.8/site-packages/mypkg/talker.py to talker.cpython-38.pyc
+[0.998s] running install_data
+[0.998s] running install_egg_info
+[0.999s]   File "/home/atsushi8-ss/ros2_ws/install/mypkg/lib/python3.8/site-packages/mypkg/talker.py", line 6
+[0.999s]     if request.name == "山口敦志"
+[0.999s]                             ^
+[0.999s] SyntaxError: invalid syntax
+[0.999s] 
+[0.999s] removing '/home/atsushi8-ss/ros2_ws/install/mypkg/lib/python3.8/site-packages/mypkg-0.0.0-py3.8.egg-info' (and everything under it)
+[1.000s] Copying ../../build/mypkg/mypkg.egg-info to /home/atsushi8-ss/ros2_ws/install/mypkg/lib/python3.8/site-packages/mypkg-0.0.0-py3.8.egg-info
+[1.000s] running install_scripts
+[1.012s] Installing listener script to /home/atsushi8-ss/ros2_ws/install/mypkg/lib/mypkg
+[1.013s] Installing talker script to /home/atsushi8-ss/ros2_ws/install/mypkg/lib/mypkg
+[1.013s] writing list of installed files to '/home/atsushi8-ss/ros2_ws/build/mypkg/install.log'
+[1.037s] Invoked command in '/home/atsushi8-ss/ros2_ws/src/mypkg' returned '0': PYTHONPATH=/home/atsushi8-ss/ros2_ws/build/mypkg/prefix_override:/home/atsushi8-ss/ros2_ws/install/mypkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mypkg build --build-base /home/atsushi8-ss/ros2_ws/build/mypkg/build install --record /home/atsushi8-ss/ros2_ws/build/mypkg/install.log --install-scripts $base/lib/mypkg --single-version-externally-managed

@@ -1,0 +1,122 @@
+[0.000000] (-) TimerEvent: {}
+[0.000264] (mypkg) JobQueued: {'identifier': 'mypkg', 'dependencies': OrderedDict()}
+[0.000468] (person_msgs) JobQueued: {'identifier': 'person_msgs', 'dependencies': OrderedDict()}
+[0.000799] (mypkg) JobStarted: {'identifier': 'mypkg'}
+[0.099824] (-) TimerEvent: {}
+[0.114864] (person_msgs) JobStarted: {'identifier': 'person_msgs'}
+[0.200594] (-) TimerEvent: {}
+[0.301052] (-) TimerEvent: {}
+[0.401600] (-) TimerEvent: {}
+[0.435189] (person_msgs) JobProgress: {'identifier': 'person_msgs', 'progress': 'cmake'}
+[0.435949] (person_msgs) JobProgress: {'identifier': 'person_msgs', 'progress': 'build'}
+[0.437099] (person_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/atsushi8-ss/ros2_ws/build/person_msgs', '--', '-j16', '-l16'], 'cwd': '/home/atsushi8-ss/ros2_ws/build/person_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'atsushi8-ss'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/atsushi8-ss/ros2_ws/install/person_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('WT_PROFILE_ID', '{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}'), ('HOME', '/home/atsushi8-ss'), ('OLDPWD', '/home/atsushi8-ss/ros2_ws/src/person_msgs'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/atsushi8-ss/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'atsushi8-ss'), ('NAME', 'MSI'), ('WSL_INTEROP', '/run/WSL/166_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2023a/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Users/kappa/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/kappa/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', '36e68c71-c211-4b92-a7b5-d00e27068291'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/atsushi8-ss/ros2_ws/install/person_msgs:/home/atsushi8-ss/ros2_ws/install/mypkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/atsushi8-ss/ros2_ws/build/person_msgs'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/atsushi8-ss/ros2_ws/install/person_msgs/lib/python3.8/site-packages:/home/atsushi8-ss/ros2_ws/install/mypkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/atsushi8-ss/ros2_ws/install/person_msgs:/home/atsushi8-ss/ros2_ws/install/mypkg:/opt/ros/foxy'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.466864] (person_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.484362] (person_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.484510] (person_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.501782] (-) TimerEvent: {}
+[0.602256] (-) TimerEvent: {}
+[0.640496] (person_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.642724] (person_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.645942] (person_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.702392] (-) TimerEvent: {}
+[0.746185] (mypkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/mypkg', 'build', '--build-base', '/home/atsushi8-ss/ros2_ws/build/mypkg/build', 'install', '--record', '/home/atsushi8-ss/ros2_ws/build/mypkg/install.log', '--install-scripts', '$base/lib/mypkg', '--single-version-externally-managed'], 'cwd': '/home/atsushi8-ss/ros2_ws/src/mypkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'atsushi8-ss', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/atsushi8-ss/ros2_ws/install/person_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'WT_PROFILE_ID': '{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}', 'HOME': '/home/atsushi8-ss', 'OLDPWD': '/home/atsushi8-ss/ros2_ws/src/person_msgs', 'ROS_PYTHON_VERSION': '3', 'WSL_DISTRO_NAME': 'Ubuntu-20.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/atsushi8-ss/ros2_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'atsushi8-ss', 'NAME': 'MSI', 'WSL_INTEROP': '/run/WSL/166_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2023a/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Users/kappa/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/kappa/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'WT_SESSION': '36e68c71-c211-4b92-a7b5-d00e27068291', 'XDG_RUNTIME_DIR': '/mnt/wslg/runtime-dir', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/atsushi8-ss/ros2_ws/install/person_msgs:/home/atsushi8-ss/ros2_ws/install/mypkg:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/atsushi8-ss/ros2_ws/build/mypkg', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/atsushi8-ss/ros2_ws/build/mypkg/prefix_override:/home/atsushi8-ss/ros2_ws/install/mypkg/lib/python3.8/site-packages:/home/atsushi8-ss/ros2_ws/install/person_msgs/lib/python3.8/site-packages:/home/atsushi8-ss/ros2_ws/install/mypkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/atsushi8-ss/ros2_ws/install/person_msgs', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}, 'shell': False}
+[0.802547] (-) TimerEvent: {}
+[0.894134] (mypkg) StdoutLine: {'line': b'running egg_info\n'}
+[0.894554] (mypkg) StdoutLine: {'line': b'writing ../../build/mypkg/mypkg.egg-info/PKG-INFO\n'}
+[0.894823] (mypkg) StdoutLine: {'line': b'writing dependency_links to ../../build/mypkg/mypkg.egg-info/dependency_links.txt\n'}
+[0.895075] (mypkg) StdoutLine: {'line': b'writing entry points to ../../build/mypkg/mypkg.egg-info/entry_points.txt\n'}
+[0.895603] (mypkg) StdoutLine: {'line': b'writing requirements to ../../build/mypkg/mypkg.egg-info/requires.txt\n'}
+[0.895718] (mypkg) StdoutLine: {'line': b'writing top-level names to ../../build/mypkg/mypkg.egg-info/top_level.txt\n'}
+[0.902705] (-) TimerEvent: {}
+[0.921922] (mypkg) StdoutLine: {'line': b"reading manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'\n"}
+[0.922543] (mypkg) StdoutLine: {'line': b"writing manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'\n"}
+[0.922638] (mypkg) StdoutLine: {'line': b'running build\n'}
+[0.922685] (mypkg) StdoutLine: {'line': b'running build_py\n'}
+[0.922845] (mypkg) StdoutLine: {'line': b'running install\n'}
+[0.923404] (mypkg) StdoutLine: {'line': b'running install_lib\n'}
+[0.924352] (mypkg) StdoutLine: {'line': b'running install_data\n'}
+[0.924750] (mypkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.925980] (mypkg) StdoutLine: {'line': b"removing '/home/atsushi8-ss/ros2_ws/install/mypkg/lib/python3.8/site-packages/mypkg-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[0.926313] (mypkg) StdoutLine: {'line': b'Copying ../../build/mypkg/mypkg.egg-info to /home/atsushi8-ss/ros2_ws/install/mypkg/lib/python3.8/site-packages/mypkg-0.0.0-py3.8.egg-info\n'}
+[0.927242] (mypkg) StdoutLine: {'line': b'running install_scripts\n'}
+[0.946392] (mypkg) StdoutLine: {'line': b'Installing listener script to /home/atsushi8-ss/ros2_ws/install/mypkg/lib/mypkg\n'}
+[0.946901] (mypkg) StdoutLine: {'line': b'Installing talker script to /home/atsushi8-ss/ros2_ws/install/mypkg/lib/mypkg\n'}
+[0.947343] (mypkg) StdoutLine: {'line': b"writing list of installed files to '/home/atsushi8-ss/ros2_ws/build/mypkg/install.log'\n"}
+[0.962502] (mypkg) CommandEnded: {'returncode': 0}
+[1.010160] (-) TimerEvent: {}
+[1.056604] (mypkg) JobEnded: {'identifier': 'mypkg', 'rc': 0}
+[1.110311] (-) TimerEvent: {}
+[1.210694] (-) TimerEvent: {}
+[1.311112] (-) TimerEvent: {}
+[1.411502] (-) TimerEvent: {}
+[1.511879] (-) TimerEvent: {}
+[1.612246] (-) TimerEvent: {}
+[1.712598] (-) TimerEvent: {}
+[1.812982] (-) TimerEvent: {}
+[1.913358] (-) TimerEvent: {}
+[2.013722] (-) TimerEvent: {}
+[2.114091] (-) TimerEvent: {}
+[2.214532] (-) TimerEvent: {}
+[2.314932] (-) TimerEvent: {}
+[2.415388] (-) TimerEvent: {}
+[2.515770] (-) TimerEvent: {}
+[2.616187] (-) TimerEvent: {}
+[2.716580] (-) TimerEvent: {}
+[2.816945] (-) TimerEvent: {}
+[2.917332] (-) TimerEvent: {}
+[3.017730] (-) TimerEvent: {}
+[3.118087] (-) TimerEvent: {}
+[3.218464] (-) TimerEvent: {}
+[3.318809] (-) TimerEvent: {}
+[3.419174] (-) TimerEvent: {}
+[3.519676] (-) TimerEvent: {}
+[3.620064] (-) TimerEvent: {}
+[3.720460] (-) TimerEvent: {}
+[3.820837] (-) TimerEvent: {}
+[3.921232] (-) TimerEvent: {}
+[4.021674] (-) TimerEvent: {}
+[4.122055] (-) TimerEvent: {}
+[4.222465] (-) TimerEvent: {}
+[4.322813] (-) TimerEvent: {}
+[4.423195] (-) TimerEvent: {}
+[4.523581] (-) TimerEvent: {}
+[4.623996] (-) TimerEvent: {}
+[4.724448] (-) TimerEvent: {}
+[4.824818] (-) TimerEvent: {}
+[4.925187] (-) TimerEvent: {}
+[5.025526] (-) TimerEvent: {}
+[5.125902] (-) TimerEvent: {}
+[5.226262] (-) TimerEvent: {}
+[5.326641] (-) TimerEvent: {}
+[5.427086] (-) TimerEvent: {}
+[5.527492] (-) TimerEvent: {}
+[5.627877] (-) TimerEvent: {}
+[5.728276] (-) TimerEvent: {}
+[5.828698] (-) TimerEvent: {}
+[5.929064] (-) TimerEvent: {}
+[6.029468] (-) TimerEvent: {}
+[6.129828] (-) TimerEvent: {}
+[6.230253] (-) TimerEvent: {}
+[6.330851] (-) TimerEvent: {}
+[6.431240] (-) TimerEvent: {}
+[6.531619] (-) TimerEvent: {}
+[6.631979] (-) TimerEvent: {}
+[6.732333] (-) TimerEvent: {}
+[6.832682] (-) TimerEvent: {}
+[6.906840] (person_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.926819] (person_msgs) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):\n'}
+[6.927005] (person_msgs) StderrLine: {'line': b"  rosidl_generate_interfaces() the passed file 'srv/Query.srv' doesn't exist\n"}
+[6.927060] (person_msgs) StderrLine: {'line': b'  relative to the CMAKE_CURRENT_SOURCE_DIR\n'}
+[6.927116] (person_msgs) StderrLine: {'line': b"  '/home/atsushi8-ss/ros2_ws/src/person_msgs'\n"}
+[6.927160] (person_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.927201] (person_msgs) StderrLine: {'line': b'  CMakeLists.txt:25 (rosidl_generate_interfaces)\n'}
+[6.927242] (person_msgs) StderrLine: {'line': b'\n'}
+[6.927305] (person_msgs) StderrLine: {'line': b'\n'}
+[6.927655] (person_msgs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[6.927728] (person_msgs) StdoutLine: {'line': b'See also "/home/atsushi8-ss/ros2_ws/build/person_msgs/CMakeFiles/CMakeOutput.log".\n'}
+[6.932791] (-) TimerEvent: {}
+[6.933622] (person_msgs) StderrLine: {'line': b'make: *** [Makefile:748: cmake_check_build_system] Error 1\n'}
+[6.935384] (person_msgs) CommandEnded: {'returncode': 2}
+[7.032970] (-) TimerEvent: {}
+[7.116507] (person_msgs) JobEnded: {'identifier': 'person_msgs', 'rc': 2}
+[7.117925] (-) EventReactorShutdown: {}
