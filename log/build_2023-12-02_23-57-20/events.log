@@ -1,0 +1,199 @@
+[0.000000] (-) TimerEvent: {}
+[0.000191] (mypkg) JobQueued: {'identifier': 'mypkg', 'dependencies': OrderedDict()}
+[0.000216] (person_msgs) JobQueued: {'identifier': 'person_msgs', 'dependencies': OrderedDict()}
+[0.000865] (mypkg) JobStarted: {'identifier': 'mypkg'}
+[0.099928] (-) TimerEvent: {}
+[0.108388] (person_msgs) JobStarted: {'identifier': 'person_msgs'}
+[0.200082] (-) TimerEvent: {}
+[0.300400] (-) TimerEvent: {}
+[0.401609] (-) TimerEvent: {}
+[0.470849] (person_msgs) JobProgress: {'identifier': 'person_msgs', 'progress': 'cmake'}
+[0.472774] (person_msgs) JobProgress: {'identifier': 'person_msgs', 'progress': 'build'}
+[0.472813] (person_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/atsushi8-ss/ros2_ws/build/person_msgs', '--', '-j16', '-l16'], 'cwd': '/home/atsushi8-ss/ros2_ws/build/person_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'atsushi8-ss'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/atsushi8-ss/ros2_ws/install/person_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/atsushi8-ss'), ('OLDPWD', '/home/atsushi8-ss/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/atsushi8-ss/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'atsushi8-ss'), ('NAME', 'MSI'), ('WSL_INTEROP', '/run/WSL/8_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2023a/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Users/kappa/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/kappa/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/atsushi8-ss/ros2_ws/install/person_msgs:/home/atsushi8-ss/ros2_ws/install/mypkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/atsushi8-ss/ros2_ws/build/person_msgs'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/atsushi8-ss/ros2_ws/install/person_msgs/lib/python3.8/site-packages:/home/atsushi8-ss/ros2_ws/install/mypkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/atsushi8-ss/ros2_ws/install/person_msgs:/home/atsushi8-ss/ros2_ws/install/mypkg:/opt/ros/foxy'), ('WSLENV', '')]), 'shell': False}
+[0.501831] (-) TimerEvent: {}
+[0.568637] (person_msgs) StdoutLine: {'line': b'[  2%] Built target person_msgs__cpp\n'}
+[0.582360] (person_msgs) StdoutLine: {'line': b'[ 12%] Built target person_msgs__rosidl_generator_c\n'}
+[0.592993] (person_msgs) StdoutLine: {'line': b'[ 23%] Built target person_msgs__rosidl_typesupport_cpp\n'}
+[0.601944] (-) TimerEvent: {}
+[0.605233] (person_msgs) StdoutLine: {'line': b'[ 33%] Built target person_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.605503] (person_msgs) StdoutLine: {'line': b'[ 43%] Built target person_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.608733] (person_msgs) StdoutLine: {'line': b'[ 53%] Built target person_msgs__rosidl_typesupport_c\n'}
+[0.613847] (person_msgs) StdoutLine: {'line': b'[ 64%] Built target person_msgs__rosidl_typesupport_introspection_c\n'}
+[0.627517] (person_msgs) StdoutLine: {'line': b'[ 74%] Built target person_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.643296] (person_msgs) StdoutLine: {'line': b'[ 74%] Built target person_msgs\n'}
+[0.659396] (person_msgs) StdoutLine: {'line': b'[ 76%] Built target person_msgs__py\n'}
+[0.685441] (person_msgs) StdoutLine: {'line': b'[ 84%] Built target person_msgs__python\n'}
+[0.702075] (-) TimerEvent: {}
+[0.708659] (person_msgs) StdoutLine: {'line': b'[ 94%] Built target person_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.708834] (person_msgs) StdoutLine: {'line': b'[ 94%] Built target person_msgs__rosidl_typesupport_c__pyext\n'}
+[0.711999] (person_msgs) StdoutLine: {'line': b'[100%] Built target person_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[0.719827] (person_msgs) CommandEnded: {'returncode': 0}
+[0.785297] (person_msgs) JobProgress: {'identifier': 'person_msgs', 'progress': 'install'}
+[0.793759] (person_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/atsushi8-ss/ros2_ws/build/person_msgs'], 'cwd': '/home/atsushi8-ss/ros2_ws/build/person_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'atsushi8-ss'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/atsushi8-ss/ros2_ws/install/person_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/atsushi8-ss'), ('OLDPWD', '/home/atsushi8-ss/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/atsushi8-ss/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'atsushi8-ss'), ('NAME', 'MSI'), ('WSL_INTEROP', '/run/WSL/8_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2023a/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Users/kappa/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/kappa/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/atsushi8-ss/ros2_ws/install/person_msgs:/home/atsushi8-ss/ros2_ws/install/mypkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/atsushi8-ss/ros2_ws/build/person_msgs'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/atsushi8-ss/ros2_ws/install/person_msgs/lib/python3.8/site-packages:/home/atsushi8-ss/ros2_ws/install/mypkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/atsushi8-ss/ros2_ws/install/person_msgs:/home/atsushi8-ss/ros2_ws/install/mypkg:/opt/ros/foxy'), ('WSLENV', '')]), 'shell': False}
+[0.800585] (person_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.800870] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/share/ament_index/resource_index/rosidl_interfaces/person_msgs\n'}
+[0.800982] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/include/person_msgs\n'}
+[0.801120] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/include/person_msgs/srv\n'}
+[0.801173] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/include/person_msgs/srv/query.h\n'}
+[0.801286] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/include/person_msgs/srv/detail\n'}
+[0.801601] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/include/person_msgs/srv/detail/query__functions.c\n'}
+[0.801661] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/include/person_msgs/srv/detail/query__type_support.h\n'}
+[0.801706] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/include/person_msgs/srv/detail/query__functions.h\n'}
+[0.801759] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/include/person_msgs/srv/detail/query__struct.h\n'}
+[0.801799] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/include/person_msgs/msg\n'}
+[0.801861] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/include/person_msgs/msg/person.h\n'}
+[0.801911] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/include/person_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.801961] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/include/person_msgs/msg/detail\n'}
+[0.802010] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/include/person_msgs/msg/detail/person__functions.c\n'}
+[0.802059] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/include/person_msgs/msg/detail/person__type_support.h\n'}
+[0.802155] (-) TimerEvent: {}
+[0.802343] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/include/person_msgs/msg/detail/person__functions.h\n'}
+[0.802492] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/include/person_msgs/msg/detail/person__struct.h\n'}
+[0.802777] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/share/person_msgs/environment/library_path.sh\n'}
+[0.802832] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/share/person_msgs/environment/library_path.dsv\n'}
+[0.802883] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_generator_c.so\n'}
+[0.802933] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/include/person_msgs\n'}
+[0.802986] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/include/person_msgs/srv\n'}
+[0.803041] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/include/person_msgs/srv/detail\n'}
+[0.803189] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/include/person_msgs/srv/detail/query__rosidl_typesupport_fastrtps_c.h\n'}
+[0.803336] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/include/person_msgs/msg\n'}
+[0.803479] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/include/person_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.803632] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/include/person_msgs/msg/detail\n'}
+[0.803783] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/include/person_msgs/msg/detail/person__rosidl_typesupport_fastrtps_c.h\n'}
+[0.804066] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[0.804189] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/include/person_msgs\n'}
+[0.804251] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/include/person_msgs/srv\n'}
+[0.804304] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/include/person_msgs/srv/detail\n'}
+[0.804365] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/include/person_msgs/srv/detail/dds_fastrtps\n'}
+[0.804565] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/include/person_msgs/srv/detail/query__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.804716] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/include/person_msgs/msg\n'}
+[0.804866] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/include/person_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.805018] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/include/person_msgs/msg/detail\n'}
+[0.805165] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/include/person_msgs/msg/detail/dds_fastrtps\n'}
+[0.805314] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/include/person_msgs/msg/detail/person__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.805610] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.805779] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/include/person_msgs\n'}
+[0.805922] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/include/person_msgs/srv\n'}
+[0.806057] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/include/person_msgs/srv/detail\n'}
+[0.806190] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/include/person_msgs/srv/detail/query__type_support.c\n'}
+[0.806323] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/include/person_msgs/srv/detail/query__rosidl_typesupport_introspection_c.h\n'}
+[0.806459] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/include/person_msgs/msg\n'}
+[0.806592] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/include/person_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.806730] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/include/person_msgs/msg/detail\n'}
+[0.806856] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/include/person_msgs/msg/detail/person__type_support.c\n'}
+[0.806972] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/include/person_msgs/msg/detail/person__rosidl_typesupport_introspection_c.h\n'}
+[0.807219] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_introspection_c.so\n'}
+[0.807418] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_c.so\n'}
+[0.807546] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/include/person_msgs\n'}
+[0.807663] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/include/person_msgs/srv\n'}
+[0.807789] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/include/person_msgs/srv/query.hpp\n'}
+[0.807904] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/include/person_msgs/srv/detail\n'}
+[0.808023] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/include/person_msgs/srv/detail/query__builder.hpp\n'}
+[0.808138] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/include/person_msgs/srv/detail/query__struct.hpp\n'}
+[0.808275] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/include/person_msgs/srv/detail/query__traits.hpp\n'}
+[0.808411] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/include/person_msgs/srv/detail/query__type_support.hpp\n'}
+[0.808552] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/include/person_msgs/msg\n'}
+[0.808689] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/include/person_msgs/msg/person.hpp\n'}
+[0.808831] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/include/person_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[0.808969] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/include/person_msgs/msg/detail\n'}
+[0.809114] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/include/person_msgs/msg/detail/person__builder.hpp\n'}
+[0.809258] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/include/person_msgs/msg/detail/person__type_support.hpp\n'}
+[0.809397] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/include/person_msgs/msg/detail/person__traits.hpp\n'}
+[0.809531] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/include/person_msgs/msg/detail/person__struct.hpp\n'}
+[0.809665] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/include/person_msgs\n'}
+[0.809964] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/include/person_msgs/srv\n'}
+[0.810059] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/include/person_msgs/srv/detail\n'}
+[0.810114] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/include/person_msgs/srv/detail/query__type_support.cpp\n'}
+[0.810159] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/include/person_msgs/srv/detail/query__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.810203] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/include/person_msgs/msg\n'}
+[0.810246] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/include/person_msgs/msg/detail\n'}
+[0.810288] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/include/person_msgs/msg/detail/person__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.810329] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/include/person_msgs/msg/detail/person__type_support.cpp\n'}
+[0.810370] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[0.810411] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_cpp.so\n'}
+[0.810453] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/share/person_msgs/environment/pythonpath.sh\n'}
+[0.810495] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/share/person_msgs/environment/pythonpath.dsv\n'}
+[0.810537] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/lib/python3.8/site-packages/person_msgs/__init__.py\n'}
+[0.842300] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/lib/python3.8/site-packages/person_msgs/msg\n'}
+[0.842472] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/lib/python3.8/site-packages/person_msgs/msg/_person.py\n'}
+[0.842518] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/lib/python3.8/site-packages/person_msgs/msg/_person_s.c\n'}
+[0.842560] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/lib/python3.8/site-packages/person_msgs/msg/__init__.py\n'}
+[0.842601] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/lib/python3.8/site-packages/person_msgs/srv\n'}
+[0.842649] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/lib/python3.8/site-packages/person_msgs/srv/_query_s.c\n'}
+[0.842692] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/lib/python3.8/site-packages/person_msgs/srv/_query.py\n'}
+[0.842730] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/lib/python3.8/site-packages/person_msgs/srv/__init__.py\n'}
+[0.843030] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/lib/python3.8/site-packages/person_msgs/person_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[0.843341] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/lib/python3.8/site-packages/person_msgs/person_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[0.844002] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/lib/python3.8/site-packages/person_msgs/person_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[0.844623] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/lib/libperson_msgs__python.so\n'}
+[0.844808] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/share/person_msgs/msg/Person.idl\n'}
+[0.845098] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/share/person_msgs/srv/Query.idl\n'}
+[0.845322] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/share/person_msgs/msg/Person.msg\n'}
+[0.845455] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/share/person_msgs/srv/Query.srv\n'}
+[0.845578] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/share/person_msgs/srv/Query_Request.msg\n'}
+[0.845704] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/share/person_msgs/srv/Query_Response.msg\n'}
+[0.845826] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/share/ament_index/resource_index/package_run_dependencies/person_msgs\n'}
+[0.845932] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/share/ament_index/resource_index/parent_prefix_path/person_msgs\n'}
+[0.845989] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/share/person_msgs/environment/ament_prefix_path.sh\n'}
+[0.846230] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/share/person_msgs/environment/ament_prefix_path.dsv\n'}
+[0.846317] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/share/person_msgs/environment/path.sh\n'}
+[0.846441] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/share/person_msgs/environment/path.dsv\n'}
+[0.846566] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/share/person_msgs/local_setup.bash\n'}
+[0.846803] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/share/person_msgs/local_setup.sh\n'}
+[0.846964] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/share/person_msgs/local_setup.zsh\n'}
+[0.847118] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/share/person_msgs/local_setup.dsv\n'}
+[0.847269] (person_msgs) StdoutLine: {'line': b'-- Installing: /home/atsushi8-ss/ros2_ws/install/person_msgs/share/person_msgs/package.dsv\n'}
+[0.847420] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/share/ament_index/resource_index/packages/person_msgs\n'}
+[0.847574] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgs__rosidl_generator_cExport.cmake\n'}
+[0.847732] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.848052] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.848226] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.848367] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgs__rosidl_typesupport_cExport.cmake\n'}
+[0.848506] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.848640] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgs__rosidl_generator_cppExport.cmake\n'}
+[0.848776] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.848913] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.849045] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[0.849172] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.849298] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/share/person_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[0.849573] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/share/person_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.849659] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/share/person_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.849712] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/share/person_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.849759] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/share/person_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.849832] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/share/person_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.849921] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/share/person_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.849997] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgsConfig.cmake\n'}
+[0.850761] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgsConfig-version.cmake\n'}
+[0.850991] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/atsushi8-ss/ros2_ws/install/person_msgs/share/person_msgs/package.xml\n'}
+[0.854869] (mypkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/mypkg', 'build', '--build-base', '/home/atsushi8-ss/ros2_ws/build/mypkg/build', 'install', '--record', '/home/atsushi8-ss/ros2_ws/build/mypkg/install.log', '--install-scripts', '$base/lib/mypkg', '--single-version-externally-managed'], 'cwd': '/home/atsushi8-ss/ros2_ws/src/mypkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'atsushi8-ss', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/atsushi8-ss/ros2_ws/install/person_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/atsushi8-ss', 'OLDPWD': '/home/atsushi8-ss/ros2_ws/src', 'ROS_PYTHON_VERSION': '3', 'WSL_DISTRO_NAME': 'Ubuntu-20.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/atsushi8-ss/ros2_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'atsushi8-ss', 'NAME': 'MSI', 'WSL_INTEROP': '/run/WSL/8_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2023a/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Users/kappa/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/kappa/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/mnt/wslg/runtime-dir', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/atsushi8-ss/ros2_ws/install/person_msgs:/home/atsushi8-ss/ros2_ws/install/mypkg:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/atsushi8-ss/ros2_ws/build/mypkg', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/atsushi8-ss/ros2_ws/build/mypkg/prefix_override:/home/atsushi8-ss/ros2_ws/install/mypkg/lib/python3.8/site-packages:/home/atsushi8-ss/ros2_ws/install/person_msgs/lib/python3.8/site-packages:/home/atsushi8-ss/ros2_ws/install/mypkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/atsushi8-ss/ros2_ws/install/person_msgs', 'WSLENV': ''}, 'shell': False}
+[0.856965] (person_msgs) CommandEnded: {'returncode': 0}
+[0.904084] (-) TimerEvent: {}
+[1.001356] (mypkg) StdoutLine: {'line': b'running egg_info\n'}
+[1.002083] (mypkg) StdoutLine: {'line': b'writing ../../build/mypkg/mypkg.egg-info/PKG-INFO\n'}
+[1.004305] (-) TimerEvent: {}
+[1.004966] (mypkg) StdoutLine: {'line': b'writing dependency_links to ../../build/mypkg/mypkg.egg-info/dependency_links.txt\n'}
+[1.005164] (mypkg) StdoutLine: {'line': b'writing entry points to ../../build/mypkg/mypkg.egg-info/entry_points.txt\n'}
+[1.005306] (mypkg) StdoutLine: {'line': b'writing requirements to ../../build/mypkg/mypkg.egg-info/requires.txt\n'}
+[1.005437] (mypkg) StdoutLine: {'line': b'writing top-level names to ../../build/mypkg/mypkg.egg-info/top_level.txt\n'}
+[1.031027] (mypkg) StdoutLine: {'line': b"reading manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'\n"}
+[1.031652] (mypkg) StdoutLine: {'line': b"writing manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'\n"}
+[1.031987] (mypkg) StdoutLine: {'line': b'running build\n'}
+[1.032074] (mypkg) StdoutLine: {'line': b'running build_py\n'}
+[1.032357] (mypkg) StdoutLine: {'line': b'running install\n'}
+[1.032846] (mypkg) StdoutLine: {'line': b'running install_lib\n'}
+[1.034171] (mypkg) StdoutLine: {'line': b'running install_data\n'}
+[1.034706] (mypkg) StdoutLine: {'line': b'copying package.xml -> /home/atsushi8-ss/ros2_ws/install/mypkg/share/mypkg\n'}
+[1.034957] (mypkg) StdoutLine: {'line': b'copying launch/talk_listen.launch.py -> /home/atsushi8-ss/ros2_ws/install/mypkg/share/mypkg\n'}
+[1.035117] (mypkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.036368] (mypkg) StdoutLine: {'line': b"removing '/home/atsushi8-ss/ros2_ws/install/mypkg/lib/python3.8/site-packages/mypkg-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[1.037203] (mypkg) StdoutLine: {'line': b'Copying ../../build/mypkg/mypkg.egg-info to /home/atsushi8-ss/ros2_ws/install/mypkg/lib/python3.8/site-packages/mypkg-0.0.0-py3.8.egg-info\n'}
+[1.038171] (mypkg) StdoutLine: {'line': b'running install_scripts\n'}
+[1.052848] (mypkg) StdoutLine: {'line': b'Installing listener script to /home/atsushi8-ss/ros2_ws/install/mypkg/lib/mypkg\n'}
+[1.053404] (mypkg) StdoutLine: {'line': b'Installing talker script to /home/atsushi8-ss/ros2_ws/install/mypkg/lib/mypkg\n'}
+[1.054358] (mypkg) StdoutLine: {'line': b"writing list of installed files to '/home/atsushi8-ss/ros2_ws/build/mypkg/install.log'\n"}
+[1.104731] (-) TimerEvent: {}
+[1.181953] (person_msgs) JobEnded: {'identifier': 'person_msgs', 'rc': 0}
+[1.183292] (mypkg) CommandEnded: {'returncode': 0}
+[1.204864] (-) TimerEvent: {}
+[1.248644] (mypkg) JobEnded: {'identifier': 'mypkg', 'rc': 0}
+[1.249203] (-) EventReactorShutdown: {}
